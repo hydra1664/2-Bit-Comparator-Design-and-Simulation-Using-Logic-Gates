@@ -1,0 +1,1 @@
+# 2-Bit-Comparator-Design-and-Simulation-Using-Logic-Gates
