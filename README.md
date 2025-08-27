@@ -4,7 +4,6 @@ This is a simple project where I built and simulated a 2-bit digital comparator 
 
 All circuit files are available in the **Circuit Files** folder, and all images and videos are in the **Images and Videos** folder.
 
----
 
 ## Overview
 
@@ -15,7 +14,6 @@ A 2-bit comparator has two inputs (A and B, each 2 bits wide) and three outputs:
 
 This project demonstrates how comparators work at the gate level without using prebuilt components.
 
----
 
 ## Circuit Design
 
@@ -49,7 +47,6 @@ LT0 = (NOT A0) AND B0
 A_IS_LESSER = LT1 OR (EQ1 AND LT0)
 
 
----
 
 ## Simulation
 
@@ -59,7 +56,6 @@ https://github.com/user-attachments/assets/8358ec0b-df24-4746-b271-79106f38f792
 
 
 
----
 
 ## How to Use
 
@@ -67,14 +63,12 @@ https://github.com/user-attachments/assets/8358ec0b-df24-4746-b271-79106f38f792
 2. Toggle the input values for A and B.
 3. Watch the corresponding output LED light up for EQUAL, A_IS_GREATER, or A_IS_LESSER.
 
----
 
 ## Project Files
 
 - Circuit Files → Contains the Logisim Evolution project files (`.circ`)
 - Videos → Contains a demo video
 
----
 
 ## Conclusion
 
