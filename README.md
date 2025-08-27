@@ -29,22 +29,22 @@ The 2-bit inputs are split into single bits using splitters:
 This makes it easier to connect individual bits to the logic blocks.
 
 ### Equality Logic
-EQ0 = (A0 AND B0) OR (NOT A0 AND NOT B0)
-EQ1 = (A1 AND B1) OR (NOT A1 AND NOT B1)
-EQUAL = EQ0 AND EQ1
+- EQ0 = (A0 AND B0) OR (NOT A0 AND NOT B0)
+- EQ1 = (A1 AND B1) OR (NOT A1 AND NOT B1)
+- EQUAL = EQ0 AND EQ1
 
 This checks if both bits match.
 
 ### Greater Than Logic
-GT1 = A1 AND (NOT B1)
-GT0 = A0 AND (NOT B0)
-A_IS_GREATER = GT1 OR (EQ1 AND GT0)
+- GT1 = A1 AND (NOT B1)
+- GT0 = A0 AND (NOT B0)
+- A_IS_GREATER = GT1 OR (EQ1 AND GT0)
 
 
 ### Less Than Logic
-LT1 = (NOT A1) AND B1
-LT0 = (NOT A0) AND B0
-A_IS_LESSER = LT1 OR (EQ1 AND LT0)
+- LT1 = (NOT A1) AND B1
+- LT0 = (NOT A0) AND B0
+- A_IS_LESSER = LT1 OR (EQ1 AND LT0)
 
 
 
