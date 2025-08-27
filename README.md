@@ -2,7 +2,7 @@
 
 This is a simple project where I built and simulated a 2-bit digital comparator using only basic logic gates in Logisim Evolution. Instead of using the built-in comparator blocks, I created the logic manually with AND, OR, and NOT gates. The comparator checks two 2-bit binary numbers and tells whether the first number is equal to, greater than, or less than the second number.
 
-All circuit files are available in the **Circuit Files** folder, and all images and videos are in the **Images and Videos** folder.
+All circuit files are available in the 'Circuit Files' folder, and all videos are in the 'Videos' folder.
 
 
 ## Overview
